@@ -2,7 +2,6 @@ body {
     margin: 25px;
     padding: 25px;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500px;
     font-style: normal;
 }
 
@@ -35,11 +34,11 @@ button {
 }
 
 .image1 {
-    width: 100%;
+    width: 150%;
 }
 
 #second-test {
-    width: 50%;
+    width: 100%;
 }
 
 #second-div {
@@ -48,4 +47,16 @@ button {
 
 .image1 img {
     width: 60%;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.demo {
+    width: 60%;
+    text-align: left;
+}
+
+#top {
+    width: 5%;
 }
