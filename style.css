@@ -5,6 +5,15 @@ body {
     font-style: normal;
 }
 
+marquee {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    line-break: 50px;
+    margin-bottom: 20px;
+
+}
+
 section {
     display: flex;
 }
