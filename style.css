@@ -33,3 +33,19 @@ button {
 .fast-text {
     width: 80%;
 }
+
+.image1 {
+    width: 100%;
+}
+
+#second-test {
+    width: 50%;
+}
+
+#second-div {
+    width: 100%;
+}
+
+.image1 img {
+    width: 60%;
+}
