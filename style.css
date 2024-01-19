@@ -1,0 +1,35 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+section {
+    display: flex;
+}
+
+section #text {
+    width: 50%;
+}
+
+.image img {
+    width: 70%;
+}
+
+button {
+    color: black;
+    background-color: hotpink;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 80px;
+}
+
+.animal {
+    color: red;
+}
+
+.fast-text {
+    width: 80%;
+}
