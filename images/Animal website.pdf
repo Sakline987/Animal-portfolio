@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animal website</title>
+    
+    
+    
+    
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Animal website_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Animal website_files/style.css"></head>
+
+<body>
+    <marquee behavior="" direction="">I LOVE ANIMAL</marquee>
+    <section>
+        <div id="top">
+            <img src="./Animal website_files/top-banner.png" alt="">
+        </div>
+        <div id="text">
+            <h1 id="main">Welcome To</h1>
+            <h1><span class="animal">Animals</span> world</h1>
+            <h4>The beauty of our nature </h4>
+            <p class="fast-text">Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia.
+                With few exceptions,
+                animals
+                consume organic material, breathe oxygen, have myocytes and are able to move, can reproduce sexually,
+                and
+                grow
+                from a hollow sphere of cells, the blastula, during embryonic development.</p>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Animal"><button>Click here</button></a>
+        </div>
+
+        <div class="image"> <img src="./Animal website_files/my-bg2.png" alt="Tiger">
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="image1">
+            <img src="./Animal website_files/my-bg.png" alt="">
+        </div>
+        <div id="second-div">
+            <h1> Dream Big</h1>
+            <h4>We should help the animal</h4>
+            <p id="second-test">All animals are composed of cells, surrounded by a characteristic extracellular matrix
+                composed of
+                collagen and elastic glycoproteins. During development, the animal extracellular matrix forms a
+                relatively flexible framework upon which cells can move about and be reorganised.</p>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_animal_names"><button>Resume
+                    here</button></a>
+        </div>
+        <div class="demo">
+            <img src="./Animal website_files/dream-bg.png" alt="demo picture">
+        </div>
+    </section>
+    <h1>valuability</h1>
+    <section>
+        <div class="dim"><img src="./Animal website_files/exp-bg.png" alt=""></div>
+        <div class="last">
+            <h2>Reproduction and development</h2>
+            <h4 class="texts">Repeated instances of mating with a close relative</h4>
+            <p>Nearly all animals make use of some form of sexual reproduction. They produce haploid
+                gametes by
+                meiosis; the smaller, motile gametes are spermatozoa and the larger, non-motile gametes are ova.
+                These fuse to form zygotes,</p>
+
+        </div>
+        <div class="end">
+            <h2> Numbers and habitats of major</h2>
+            <h4 class="texts">Animals are found as long ago as the Ediacaran biota</h4>
+            <p>towards the end of the Precambrian, and possibly somewhat earlier. It had long been doubted
+                whether these
+                life-forms included animals, but the discovery of the animal lipid cholesterol in fossils of Dickinsonia
+                establishes their nature. Animals are thought to have originated under low-oxygen conditions </p>
+        </div>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
