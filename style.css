@@ -69,3 +69,33 @@ button {
 #top {
     width: 5%;
 }
+
+.last {
+    height: 250px;
+    width: 650px;
+    border-left: 9px;
+    border-style: inset;
+    border-left-color: #FF7433;
+    text-align: left;
+    padding: 20px;
+}
+
+.end {
+    height: 250px;
+    width: 650px;
+    border-left: 9px;
+    border-style: inset;
+    border-left-color: rgb(72, 227, 11);
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.texts {
+    color: #FF7433;
+}
+
+.dim {
+    margin-left: 50px;
+    margin-top: 40px;
+}
